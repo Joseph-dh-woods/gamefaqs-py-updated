@@ -10,7 +10,7 @@ setup(
     author='Ryan Tonini',
     author_email ='ryantonini@yahoo.com',
     packages=['gamefaqs'],
-    url='https://github.com/ryantonini/gamefaqs-py',
+    url='https://github.com/Joseph-dh-woods/gamefaqs-py-updated',
     license='GNU General Public License v3.0',
     description='Retrieve and manage game data from GameFAQS.',
     long_description=LONG_DESCRIPTION,
