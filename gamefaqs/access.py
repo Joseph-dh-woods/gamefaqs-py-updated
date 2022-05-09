@@ -198,7 +198,7 @@ class GameFaqsDB(GameFaqsBase):
                                      (game_id, company_id))   
             # commit changes in the database (either commit all or none)
             self.db.commit()
-        except Exception, e:
+        except Exception as e:
             # for debugging
             print "Database Upload Failed. Game: ", game
             print str(e)
