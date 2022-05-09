@@ -201,7 +201,7 @@ class GameFaqsDB(GameFaqsBase):
         except Exception as e:
             # for debugging
             print("Database Upload Failed. Game: ", game)
-            print str(e)
+            print(str(e))
             # rollback in case of an error
             self.db.rollback()
     
